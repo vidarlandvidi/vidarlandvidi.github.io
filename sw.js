@@ -24,3 +24,7 @@ self.addEventListener('fetch', event => {
     })
   );
 });
+
+self.addEventListener('message', function (event) {
+    event.source.postMessage('response');
+});
