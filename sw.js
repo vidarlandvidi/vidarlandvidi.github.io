@@ -1,5 +1,5 @@
 const version = "0.0.01";
-const cacheName = `ikeychain-${version}`;
+const cacheName = `bledisplay-${version}`;
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {

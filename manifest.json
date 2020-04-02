@@ -1,6 +1,6 @@
 {
-  "name": "Bluetooth KeyChain",
-  "short_name": "BtKeyChain",
+  "name": "BleDisplay for OsmAnd",
+  "short_name": "BleDisplay",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#3E4EB8",
