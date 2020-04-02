@@ -12,6 +12,17 @@
 	</head>
 	<body>
 BleDisplay for OsmAnd PWA started!
+<button id="pair">Pair device</button>
+
+  <script>
+    window.onload = () => {
+      const button = document.getElementById('pair')
+      button.addEventListener('pointerup', function(event) {
+        // TODO:
+        navigator.bluetooth.requestDevice();
+      });
+    }
+  </script>
     <script>
       if('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/sw.js', { scope: '/' })
